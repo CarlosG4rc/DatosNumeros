@@ -13,6 +13,7 @@ int fib (int n)
 				x=lofib;
 				lofib=hifib;
 				hifib=x + lofib;
+				cout<<hifib<<endl;
 			}
 	return(hifib);
 }
